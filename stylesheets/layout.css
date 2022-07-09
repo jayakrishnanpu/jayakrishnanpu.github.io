@@ -387,27 +387,37 @@ ul.personal-info .not_available { /* Font Color For Freelance Status = Not Avail
 	background-color: #EF3817; 
 }
 
-#chart li.flash { 
+#chart li.arduino { 
     width: 40%; 
 	background-color: #EF3817; 
 }
 
-#chart li.graphic { 
+#chart li.figma { 
     width: 80%; 
 	background-color: #EF3817;  
 }
 
-#chart li.html { 
+#chart li.c { 
     width: 35%; 
 	background-color: #EF3817; 
 }
 
-#chart li.jquery { 
+#chart li.photoshop { 
     width: 52%; 
 	background-color: #EF3817; 
 }
 
-#chart li.php { 
+#chart li.illu { 
+    width: 36%; 
+	background-color: #EF3817; 
+}
+
+#chart li.plc { 
+    width: 60%; 
+	background-color: #EF3817; 
+}
+
+#chart li.ros { 
     width: 36%; 
 	background-color: #EF3817; 
 }

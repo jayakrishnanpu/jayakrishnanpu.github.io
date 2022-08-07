@@ -526,7 +526,7 @@
 	<div class="container"> 
 	    <div class="sixteen columns">
             <div class="subpage_title">
-				<h2><span>Contacts</span></h2>
+				<h2><span>Contact Me</span></h2>
 			</div>
 		</div>
         
@@ -551,7 +551,9 @@
 				</div>
 
                 <!-- Contact Form -->
-                <form id="contactform" class="clearfix">
+                <!--form id="contactform" class="clearfix">
+
+
 	             <fieldset class="info_fieldset">
 			      <div id="note"></div>
                  </fieldset> 
@@ -562,7 +564,23 @@
                  <label>Your Message</label>
 			           <textarea class="textbox" name="message" rows="5" cols="25" ></textarea><br />
 		               <input type="submit" value="Send Message" />
-                </form>
+                </form-->
+                
+				<form id="contactform" class="clearfix" action="https://formspree.io/f/maykwged" method="POST">
+  <label>
+    Your email:
+
+    <input class="textbox" type="text" name="email">
+  </label>
+  <label>
+    Your message:
+
+    <textarea class="textbox" name="message"></textarea>
+  </label>
+  <!-- your other form fields go here -->
+  <button type="submit">Send</button>
+</form>
+
                 <!-- End Contact Form -->
 		    </div>
 	    </div>

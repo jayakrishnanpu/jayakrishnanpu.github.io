@@ -907,7 +907,7 @@ button[type="submit"] 		{
 	border: none;
 }
 
-input[type="submit"]:hover 		{
+button[type="submit"]:hover 		{
 	background: #292929;
 	-webkit-transition: all 0.2s linear;
      -moz-transition: all 0.2s linear;

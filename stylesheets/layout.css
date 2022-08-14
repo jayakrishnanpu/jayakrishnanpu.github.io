@@ -424,12 +424,12 @@ ul.personal-info .not_available { /* Font Color For Freelance Status = Not Avail
 }
 		
 #chart li.ui_design { 
-    width: 88%; 
+    width: 80%; 
 	background-color: #EF3817; 
 }
 
 #chart li.arduino { 
-    width: 40%; 
+    width: 90%; 
 	background-color: #EF3817; 
 }
 
@@ -439,12 +439,12 @@ ul.personal-info .not_available { /* Font Color For Freelance Status = Not Avail
 }
 
 #chart li.c { 
-    width: 35%; 
+    width: 65%; 
 	background-color: #EF3817; 
 }
 
 #chart li.photoshop { 
-    width: 52%; 
+    width: 45%; 
 	background-color: #EF3817; 
 }
 
@@ -459,7 +459,7 @@ ul.personal-info .not_available { /* Font Color For Freelance Status = Not Avail
 }
 
 #chart li.ros { 
-    width: 36%; 
+    width: 40%; 
 	background-color: #EF3817; 
 }
 

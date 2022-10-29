@@ -1,4 +1,9 @@
-
+/*
+* Theme Name: Vido - Responsive vCard & Portfolio Template
+* Author: lmtheme (Linar Miftakhov)
+* Author URL: http://themeforest.net/user/lmtheme
+* Version: 1.0
+*/
 
 @import url("http://fonts.googleapis.com/css?family=Oswald:300,400,700");
 @import url("http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,400,300");
@@ -261,7 +266,7 @@ small { font-size: 80%; }
 	margin: 0;
 	position: absolute;
 	top: 50%;
-	-ms-transform: translateY(-50%);
+	-ms-transform: translateY(-50%);  /* IE 9 */
 	transform: translateY(-50%);
   }
 /* Style buttons */
@@ -281,7 +286,7 @@ small { font-size: 80%; }
 	box-shadow: none;
 	border: none;
 	-ms-transform: translateY(50%);
-	transform: translateY(50%);
+	transform: translateY(50%); 
   }
   
   /* Darker background on mouse-over */
@@ -605,7 +610,7 @@ ul.personal-info .not_available { /* Font Color For Freelance Status = Not Avail
 	-moz-border-radius: 4px;
 	border-radius: 20px;
 	color: #fff;
-	font-family: 'Oswald', Arial, Helvetica, sans-serif;	
+	font-family: "Oswald";
 	padding: 3px 15px 1px;
 	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
 }

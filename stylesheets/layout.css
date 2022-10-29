@@ -255,16 +255,17 @@ small { font-size: 80%; }
 	height: 200px;
 	position: relative;
 	border: none;
-	background-color: #17ef6d;
-	display: flex;
   }
   
- 
+  .vertical-center_cv {
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-ms-transform: translateY(-50%);
+	transform: translateY(-50%);
+  }
 /* Style buttons */
 .btn {
-	margin:auto;
-	text-align: center;
-	display:block;
 	color: #FFF;
 	width: 140px;
 	float: right;
@@ -274,14 +275,13 @@ small { font-size: 80%; }
 	margin-right: -10px;
 	margin-left: 397.5px;
 	margin-bottom: 200px;
-	
 	background-color: #EF3817;
 	-webkit-border-radius: 3px;-moz-border-radius:3px;border-radius:3px;
 	padding: 10px 10px;
 	box-shadow: none;
 	border: none;
-	/*-ms-transform: translateY(50%);
-	transform: translateY(50%);*/
+	-ms-transform: translateY(50%);
+	transform: translateY(50%);
   }
   
   /* Darker background on mouse-over */
